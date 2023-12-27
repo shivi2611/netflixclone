@@ -1,0 +1,27 @@
+.posterContainer{
+    display:flex;
+    flex-direction: row;
+    overflow-x:scroll;
+    padding:20px;
+}
+.posterContainer::-webkit-scrollbar{display:none}
+.poster{
+    object-fit:contain;
+    max-height: 120px;
+    width:100%;
+    margin-right:10px;
+    transition:transform 450ms;
+}
+.poster:hover{
+    transform:scale(1.08);
+}
+.row{
+    margin-left:10px;
+}
+.vertical{
+    max-height: 250px;
+}
+.row-title{
+    color:white;
+}
+
